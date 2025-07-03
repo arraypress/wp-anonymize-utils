@@ -1,0 +1,49 @@
+{
+  "name": "arraypress/wp-anonymize-utils",
+  "version": "1.0.0",
+  "description": "A lean WordPress library for anonymizing sensitive data types including emails, personal info, IPs, and financial data",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/arraypress/wp-anonymize-utils/",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayPress\\AnonymizeUtils\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "support": {
+    "issues": "https://github.com/arraypress/wp-anonymize-utils/issues",
+    "source": "https://github.com/arraypress/wp-anonymize-utils"
+  },
+  "keywords": [
+    "wordpress",
+    "anonymize",
+    "privacy",
+    "gdpr",
+    "data-protection",
+    "wp",
+    "arraypress",
+    "anonymization",
+    "masking",
+    "sensitive-data",
+    "woocommerce",
+    "personal-data",
+    "ip-anonymization",
+    "email-privacy"
+  ]
+}
